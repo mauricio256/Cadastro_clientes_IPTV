@@ -82,25 +82,26 @@ if(!isset( $_SESSION['adm'] )){
         foreach ($result as &$valor) {    
     ?>
 
-    <div id="box">
-    
-       <h3><strong>
-       <a style='float:right;' href="visualiza.php?idCliente=<?php echo $valor['idCliente']; ?>"><ion-icon size="small" name="chevron-forward-outline"></ion-icon></a> 
-            <?php echo $valor['nome']; ?>
-        </strong></h3><hr>
+        <section class="flexbox">
+            <div id="box">
+                <h3><strong>
+                <a style='float:right;' href="visualiza.php?idCliente=<?php echo $valor['idCliente']; ?>"><ion-icon size="small" name="chevron-forward-outline"></ion-icon></a> 
+                        <?php echo $valor['nome']; ?>
+                    </strong></h3><hr>
 
-       <strong><label>Endereço: </label></strong>
-            <?php echo $valor['logradouro']; ?>,
-            <?php echo $valor['numero']; ?>,       
-            <?php echo $valor['cidade']; ?>,
-            <?php echo $valor['UF']; ?><br>
-        <strong><label>Complemento: </label></strong>
-            <?php echo $valor['complemento']; ?><br> 
-        <strong><label>Contato: </label></strong>
-            <?php echo $valor['contato']; ?>  <br>
-        <strong><label>Status: </label></strong>
-           Ativo<br>
-    </div>
+                    <strong><label>Endereço: </label></strong>
+                        <?php echo $valor['logradouro']; ?>,
+                        <?php echo $valor['numero']; ?>,       
+                        <?php echo $valor['cidade']; ?>,
+                        <?php echo $valor['UF']; ?><br>
+                    <strong><label>Complemento: </label></strong>
+                        <?php echo $valor['complemento']; ?><br> 
+                    <strong><label>Contato: </label></strong>
+                        <?php echo $valor['contato']; ?>  <br>
+                    <strong><label>Status: </label></strong>
+                    Ativo<br>
+            </div>
+        </section>
 
 
             <!-- js dos icones site ionicons -->
