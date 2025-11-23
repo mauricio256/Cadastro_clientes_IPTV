@@ -1,10 +1,13 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    color: #fff;
 }
 
 body{ 
-    background-color:#44085e;
+    background:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../img/fundo.jpg") no-repeat center center / cover;
+   
 }
 
 img{
@@ -17,7 +20,10 @@ h1,p{
 }
 
 form{
-    background-color: #cccccc;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    width: auto;  
     display:flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -27,7 +33,6 @@ form{
     padding: 20px 50px;
     border-radius: 10px;
     text-align: left;
-    color: #000;
 }
 
 label{
@@ -38,10 +43,10 @@ label{
 input,select{
     width: 100%;
     padding: 10px;
-    border:1px solid #ccc;
-    border-radius: 5px;
+    background: transparent;
     font-size: 1.1rem;
     text-decoration: none;
+    border-color: black;
 }
 
 span{
@@ -55,14 +60,13 @@ button{
     margin-top: 1rem;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #2da4df;
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
 }
 
 a{
-    background-color:#44085e;
     color: #fff;
     padding: 15px;
     width: 30%;
@@ -74,9 +78,6 @@ a{
 
 @media only screen and (max-width: 600px) {
 
-        body{
-            background: #cccccc;
-        }
         form{
            text-align: left;
            padding: 12px;
@@ -84,10 +85,6 @@ a{
         
         img{
             display: inline;
-        }
-
-        h1,p{
-            color: #000;
         }
     
   }

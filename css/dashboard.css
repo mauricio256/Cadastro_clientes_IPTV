@@ -2,9 +2,10 @@ body{
     margin: 0;
     padding: 0;
     padding-bottom: 100px;
-    background-color:white;
     font-family: "Roboto", sans-serif;
     color: rgba(0, 0, 0, 0.842);
+    background:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../img/fundo.jpg") no-repeat center center / cover;
 }
 
 /* Grid */
@@ -34,7 +35,6 @@ span{
 header{
     color: white;
     padding: 15px;
-    background-color: #2d4150;
 }
 
 div#box{
@@ -68,7 +68,7 @@ li{
 }
 
 ul li a{
-    background-color: #1a8de3;
+    background-color: #2da4df;
     padding: 10px;
     font-size: 15px;
     border-radius: 3px;
@@ -78,7 +78,7 @@ ul li a{
 }
 
 a#filtro{
-    background-color:#1a8de3;
+    background-color:#2da4df;
     padding: 7px;
     margin: 5px;
     border-radius: 3px;
@@ -116,7 +116,7 @@ select{
   }
   
   form > button {
-    background:#1a8de3;
+    background:#2da4df;
     border-radius: 3px;
     border: none;
     color: #fff;

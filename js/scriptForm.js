@@ -6,9 +6,9 @@ function validaForm(){
 
   //////NOME
 if(input[0].value === ""){
-        input[0].style="border-bottom: 5px solid red";
+        input[0].style="border-bottom: 5px solid orange";
         spanImput[0].innerHTML="Este campo não pode ser vazio";
-        spanImput[0].style="color:red";
+        spanImput[0].style="color:orange";
         input[0].focus();
         return false;
     }else{
@@ -20,7 +20,7 @@ if(input[0].value === ""){
  ////// UF
 if(input[1].value === ""){
       spanImput[1].innerHTML="Este campo não pode ser vazio";
-      spanImput[1].style="color:red";
+      spanImput[1].style="color:orange";
       input[1].focus();
       return false;
   }else{
@@ -31,9 +31,9 @@ if(input[1].value === ""){
 
   //////cidade
 if(input[2].value === ""){
-    input[2].style="border-bottom: 5px solid red";
+    input[2].style="border-bottom: 5px solid orange";
     spanImput[2].innerHTML="Este campo não pode ser vazio";
-    spanImput[2].style="color:red";
+    spanImput[2].style="color:orange";
     input[2].focus();
     return false;
 }else{ 
@@ -44,9 +44,9 @@ if(input[2].value === ""){
 
   //////bairro
   if(input[3].value === ""){
-    input[3].style="border-bottom: 5px solid red";
+    input[3].style="border-bottom: 5px solid orange";
     spanImput[3].innerHTML="Este campo não pode ser vazio";
-    spanImput[3].style="color:red";
+    spanImput[3].style="color:orange";
     input[3].focus();
     return false;
 }else{ 
@@ -57,9 +57,9 @@ if(input[2].value === ""){
 
   //////logradouro
 if(input[4].value === ""){
-    input[4].style="border-bottom: 5px solid red";
+    input[4].style="border-bottom: 5px solid orange";
     spanImput[4].innerHTML="Este campo não pode ser vazio";
-    spanImput[4].style="color:red";
+    spanImput[4].style="color:orange";
     input[4].focus();
     return false;
 }else{ 
@@ -70,9 +70,9 @@ if(input[4].value === ""){
 
 /////// numero
   if(input[5].value === ""){
-    input[5].style="border-bottom: 5px solid red";
+    input[5].style="border-bottom: 5px solid orange";
     spanImput[5].innerHTML="Este campo não pode ser vazio";
-    spanImput[5].style="color:red";
+    spanImput[5].style="color:orange";
     input[5].focus();
     return false;
 }else {
@@ -84,9 +84,9 @@ if(input[4].value === ""){
 
   ////// Complemento
   if(input[6].value === ""){
-    input[6].style="border-bottom: 5px solid red";
+    input[6].style="border-bottom: 5px solid orange";
     spanImput[6].innerHTML="Este campo não pode ser vazio";
-    spanImput[6].style="color:red";
+    spanImput[6].style="color:orange";
     input[6].focus();
     return false;
   }else{
@@ -97,9 +97,9 @@ if(input[4].value === ""){
 
   ////// contato
   if(input[7].value === ""){
-    input[7].style="border-bottom: 5px solid red";
+    input[7].style="border-bottom: 5px solid orange";
     spanImput[7].innerHTML="Este campo não pode ser vazio";
-    spanImput[7].style="color:red";
+    spanImput[7].style="color:orange";
     input[7].focus();
     return false;
   }else{
@@ -110,9 +110,9 @@ if(input[4].value === ""){
 
   ////// ult_pag
   if(input[8].value === ""){
-    input[8].style="border-bottom: 5px solid red";
+    input[8].style="border-bottom: 5px solid orange";
     spanImput[8].innerHTML="Este campo não pode ser vazio";
-    spanImput[8].style="color:red";
+    spanImput[8].style="color:orange";
     input[8].focus();
     return false;
   }else{
@@ -124,9 +124,9 @@ if(input[4].value === ""){
 
    ////// conta milka
    if(input[9].value === ""){
-    input[9].style="border-bottom: 5px solid red";
+    input[9].style="border-bottom: 5px solid orange";
     spanImput[9].innerHTML="Este campo não pode ser vazio";
-    spanImput[9].style="color:red";
+    spanImput[9].style="color:orange";
     input[9].focus();
     return false;
   }else{
@@ -137,9 +137,9 @@ if(input[4].value === ""){
 
     ////// senha milka
     if(input[10].value === ""){
-      input[10].style="border-bottom: 5px solid red";
+      input[10].style="border-bottom: 5px solid orange";
       spanImput[10].innerHTML="Este campo não pode ser vazio";
-      spanImput[10].style="color:red";
+      spanImput[10].style="color:orange";
       input[10].focus();
       return false;
     }else{

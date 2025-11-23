@@ -7,20 +7,23 @@
 }
 
 body{
+    background:linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("../img/fundo.jpg") no-repeat center center / cover;
     display: flex;
     justify-content:center;
     align-items: center;
     min-height: 100vh;
-    background-color:#44085e;
-   
 }
 
-.wrapper{
-    margin:10px;
-    padding:20px;
-    width:300px;
+.form-box {
+    width: 100%;    
+    background: rgba(255, 255, 255, 0.15);
+    padding: 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
-
 .form-box .logo{
     text-align: center;
 }
@@ -66,14 +69,14 @@ body{
 }
 
 .input-box input{
-   width:100%;
+   width:300px;
    height:100%;
    background: transparent;
    border: none;
    outline: none;
    color: #fff;
    font-size:15px;
-   padding: 0 35px 0 5px;
+
 }
 
 .input-box .icon{
@@ -87,4 +90,25 @@ body{
 span{
     color: yellow;
     font-size: 15px;
+    position:absolute;
+    margin-left: -250px;
+}
+
+@media only screen and (max-width: 600px) {
+   body{
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        width: auto;  
+    }
+    
+    .form-box{   
+    background: none;
+    padding: 0;
+    border-radius: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    box-shadow: none;
+    }
+
+    
 }
